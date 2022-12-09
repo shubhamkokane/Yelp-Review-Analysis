@@ -41,9 +41,3 @@ These instructions will get you a copy of the project up and running on your loc
     2. After running **Machine Learning.ipynb**, you would need to run **word_cloud & feature extraction.ipynb** to find the key insights about each restaurant.
  
  
- * *Instead of manually running each machine learning files, we created an API & UI that facilitates the process:*
-    NOTE: Because of the large size of our data, we still break down the process into several steps that requiring you to manually run each in order on a single computer. If we have resources to run large datasets in a short amount of time, we would automate the whole process.  
-    1. You are able to download **predicted_review.csv** by following instructions in **Predicted Review Results.pdf** in the **data** folder. This csv contains the results of predicted reviews' validiy after you ran "machine learning.ipynb". We saved and uploaded the results for the fake review detection machine learning model to improve your and users' experience by shorten the waiting time since we only ran our models on our own computers. 
-    2. After obtained "predicted_review.csv" and the SQL database at your local system by following previous steps, you can run **UI.py** or **User_Interface.ipynb** to initiate the automated program.
-    3. You may type in any restaurants and its zipcode in six states (PA, NV, NC, IL, OH, AZ) by following the prompt. The program would present a fake review ratio, which is the percentage of the fake reviews out of the total reviews and a graph demonstrating the top 10 keywords that most positively or negatively influencing the reviews of a restaurant.
-
