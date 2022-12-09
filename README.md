@@ -65,24 +65,3 @@ Taking in an user’s inputs, we first query our database to give us the unique 
 3. Waiting for the program to run for a couple of minutes, you will get the output:
 
 <img width="699" alt="screen shot 2017-12-30 at 3 07 23 pm" src="https://user-images.githubusercontent.com/31679696/34452121-396970e8-ed73-11e7-88fe-7f8c816b4595.png">
-
-
-## Blog of our project can be found at:
-https://medium.com/@zhiwei_zhang
-
-## Built With
-
-* [Anaconda Distribution](https://www.anaconda.com/download/#macos) - The coding environment
-* [Jupyter Notebook](http://jupyter.org/install.html) 
-
-## Authors
-
-* **Kunlun Liu** - [kunlun liu](https://github.com/PurpleBooth)
-* **Zhiwei Zhang** - [zhiwei zhang](https://github.com/PurpleBooth)
-* **Tong Zhang** - [tong zhang](https://github.com/PurpleBooth)
-
-## Acknowledgments
-
-* Many thanks to our professors Dan Potter, Ugur Cetintemel, and Tim Kraska at Brown University for recommendations.
-* Many thanks to Professor Rayana at Stony Brook University for providing the fake review labeled data.
-* Many thanks to TAs and online experts who commit useful open resources.
