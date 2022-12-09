@@ -47,21 +47,3 @@ These instructions will get you a copy of the project up and running on your loc
     2. After obtained "predicted_review.csv" and the SQL database at your local system by following previous steps, you can run **UI.py** or **User_Interface.ipynb** to initiate the automated program.
     3. You may type in any restaurants and its zipcode in six states (PA, NV, NC, IL, OH, AZ) by following the prompt. The program would present a fake review ratio, which is the percentage of the fake reviews out of the total reviews and a graph demonstrating the top 10 keywords that most positively or negatively influencing the reviews of a restaurant.
 
-
-## User_Interface:
-Taking in an user’s inputs, we first query our database to give us the unique business id that is associated with restaurant’s name and zip code. Loading the csv file with the predicted “deceptive vs. true” labels on the reviews, we only extracted those reviews that are related to the unique business id. 
-
-#### Steps:
-1. Open **User_Interface.ipynb** in Scripts folder
-
-<img width="637" alt="screen shot 2017-12-30 at 3 05 37 pm" src="https://user-images.githubusercontent.com/31679696/34452110-f71df3b2-ed72-11e7-8efd-ee7c8db31ea1.png">
-
-2. Type in the name and the zipcode of a restaurant that you would like to search
-- Here we typed in 85374 as the zip code and  “pei wei” as the restaurant’s name:
-
-<img width="658" alt="screen shot 2017-12-30 at 3 06 48 pm" src="https://user-images.githubusercontent.com/31679696/34452119-24a808ae-ed73-11e7-9541-b6cb85a9c36e.png">
-
-
-3. Waiting for the program to run for a couple of minutes, you will get the output:
-
-<img width="699" alt="screen shot 2017-12-30 at 3 07 23 pm" src="https://user-images.githubusercontent.com/31679696/34452121-396970e8-ed73-11e7-88fe-7f8c816b4595.png">
