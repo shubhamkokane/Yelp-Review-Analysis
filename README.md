@@ -1,5 +1,4 @@
 # Yelp Review Analysis
-# Machine Learning and Visualization with Yelp Dataset 
 
 Yelp is currently the most widely used restaurant and merchant information software across United States. However, Yelp only provides us a holistic view about restaurant, such as giving overall review score or ratings and only a few reviews out of thousands of reviews.  
 
